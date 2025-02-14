@@ -1,0 +1,46 @@
+.sectionbuttonimg {
+    width: 168px;
+}
+
+.tel-img{
+    position:relative;
+    width: 240px;
+}
+
+.phone-img{
+    width: 268px;
+}
+
+.tel-img::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgb(41,55,240);
+    background: linear-gradient(90deg, rgba(41,55,240,1) 0%, rgba(159,26,226,1) 100%);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 0;
+    border-radius: 50%;
+    height: 456px;
+    width: 456px;
+}
+
+.shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(-10deg);
+    fill: #2937f0;
+    bottom: 15%;
+    left: 10%;
+}
+
+.shape-2 {
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: #2937f0;
+    top: 15%;
+    right: 10%;
+}
