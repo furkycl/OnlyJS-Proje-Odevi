@@ -3,8 +3,10 @@
 }
 
 .tel-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position:relative;
-    width: 240px;
 }
 
 .phone-img{
@@ -139,4 +141,8 @@ footer a {
 
 footer p {
     color: rgba(255, 255, 255, 0.5);
+}
+
+.modal-header{
+    background: linear-gradient(90deg, rgba(41,55,240,1) 0%, rgba(159,26,226,1) 100%);
 }
